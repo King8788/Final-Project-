@@ -44,24 +44,32 @@ ul {
 }
 
 li {
-  display: inline;
-  color: white;
-  font-size: 22px;
-  float: left;
-  margin: 10px;
-  text-decoration: underline;
+
+display: inline;
+color: blue;
+font-size: 22px;
+float: left;
+margin: 10px;
+text-decoration: underline;
 
 }
 
+
+a {
+  color: white;
+}
 
 html {
   min-height: 100vh;
 }
 
 section {
-  height: 100px;
+  height: 120px;
   width: 100%;
   background-color: lightgrey;
+  border-style: solid;
+  border-width: 3px;
+
 
   
 }
@@ -69,20 +77,35 @@ section {
 
 section > h2 {
   text-align: center;
-  font-size: 32px;
-  padding-top: 30px;
+  font-size: 35px;
+  padding-top: 10px;
 
+ 
+
+}
+
+
+aside {
+  height: 120px;
+  width: 100%;
+  background-color: lightgrey;
+  border-style: solid;
+  border-width: 3px;
 
 
 }
 
-  
-
-}
+ aside > h2 {
+  font-size: 45px;
+  text-align: center;
+  color: mediumorchid;
+  padding-bottom: 7px;
+  text-decoration-line: underline;
+ }
 
 
 element {
-  color: orange;
+  color: mediumorchid;
   font-style: bold;
 
 }
@@ -122,10 +145,16 @@ article > h1 {
 
 
 article > p  {
-  font-size: 19px;
+  font-size: 9px;
   padding-left: 30px;
   padding-right: 14px;
   padding-bottom: 10px;
+}
+
+
+aside > p > img {
+  max-height: 300px;
+  max-width:  300px;
 }
 
 article > aside {
@@ -154,11 +183,14 @@ content > aside {
 }
 
 content > section {
-  background-color: white;
+  background-color: lightgray;
   height: 300px;
   width: 30%;
   float:left;
+  
 }
+
+
 
 
 aside> h1 {
@@ -169,7 +201,7 @@ aside> h1 {
 
 aside > p {
   color: black;
-  font-size: 28px;
+  font-size: 20px;
   padding-left: 30px;
   padding-right: 65px;
 }
@@ -184,12 +216,16 @@ section > h1 {
 
 
 section > p {
-  background-color: white;
-  color: black;
-  font-size: 28px;
+  font-size: 18px;
   padding-left: 30px;
-  padding-right: 65px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+}
 
+section > p > img {
+  max-height: 300px;
+  max-width: 300px;
+  background-position: center;
 }
 
 footer {
