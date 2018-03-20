@@ -57,6 +57,11 @@ text-decoration: underline;
 
 a {
   color: white;
+  
+}
+
+a:hover {
+   color: orange;
 }
 
 html {
@@ -84,13 +89,6 @@ section > h2 {
 
 }
 
-
-aside {
-  height: 120px;
-  width: 100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-width: 3px;
 
 
 }
@@ -135,69 +133,37 @@ article {
 }
 
 
-article > h1 {
-  color: black;
-  font-family: bold;
-  font-size: 32px;
-  padding-left: 28px;
-
 }
 
 
-article > p  {
-  font-size: 9px;
-  padding-left: 30px;
-  padding-right: 14px;
-  padding-bottom: 10px;
+content > aside {
+  height: 320px;
+  width: 31%;
+  float:left;
+  background-color: white;
+  border-style: double;
+  border-width: 3px;
+  padding-bottom: 50px;
+ 
 }
-
 
 aside > p > img {
   max-height: 300px;
   max-width:  300px;
 }
 
-article > aside {
-  background-color: yellow;
-  border-radius: 0%;
-  height: 40px;
-  width: 100px;
-  color: black;
-  font-family: bold;
-  font-size: 20px;
-  padding: 10px 23px 10px 20px;
-  display: inline;
-  margin: 24px;
-  
-}
-
-
-
-content > aside {
-  height: 300px;
-  width: 30%;
-  float:left;
-  border-right: 1px;
-  border-style: solid;
-  border-color: lightgray;
-}
-
 content > section {
-  background-color: lightgray;
-  height: 300px;
-  width: 30%;
+  height: 320px;
+  width: 31%;
   float:left;
+  background-color: white;
+  border-style: double;
+  border-width: 3px;
+  padding-bottom: 50px;
   
 }
 
 
-
-
-aside> h1 {
-  color: black;
-  font-family: bold;
-  font-size: 36px;
-}
 
 aside > p {
   color: black;
@@ -206,13 +172,6 @@ aside > p {
   padding-right: 65px;
 }
 
-
-section > h1 {
-  background-color: white;
-  color: black;
-  font-family: bold;
-  font-size: 36px;
-}
 
 
 section > p {
@@ -226,10 +185,14 @@ section > p > img {
   max-height: 300px;
   max-width: 300px;
   background-position: center;
+ 
+
 }
 
 footer {
   height: 75px;
+  padding-top:  7px;
+
   
 }
 
@@ -237,8 +200,8 @@ footer {
 footer > p {
 
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   text-indent: 20px;
-  padding-top: 23px;
+  
 
 }
