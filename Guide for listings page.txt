@@ -1,0 +1,62 @@
+<nav> <a href="./index.html" > Home </a> </nav>
+
+
+
+aside {
+  height: 120px;
+  width: 100%;
+  background-color: lightgrey;
+  border-style: double;
+  border-width: 3px;
+
+
+
+
+
+<article>
+		<h1>Meet your Match!</h1>
+
+		<p>Have a great idea for a product,but need help making it a reality? We're here to help. Start Matchmaker is the best place for designers and developers to fine each other.</p>
+
+
+		<aside> CREATE A PROFILE </aside>
+
+
+		</article>
+
+
+
+
+css:
+
+
+
+article > h1 {
+  color: black;
+  font-family: bold;
+  font-size: 32px;
+  padding-left: 28px;
+
+}
+
+
+article > p  {
+  font-size: 9px;
+  padding-left: 30px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+}
+
+
+article > aside {
+  background-color: yellow;
+  border-radius: 0%;
+  height: 40px;
+  width: 100px;
+  color: black;
+  font-family: bold;
+  font-size: 20px;
+  padding: 10px 23px 10px 20px;
+  display: inline;
+  margin: 24px;
+  
