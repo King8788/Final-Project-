@@ -8,11 +8,18 @@
 }
 
 
+
 header, footer {
   background-color: mediumorchid;
  
 }
+@media screen and (max-width: 325px) {
 
+  header, footer, div, section, aside, {
+      display: flex; 
+      flex-direction: column;
+
+    } }
 
 h2 > img {
   max-height: 18px;
