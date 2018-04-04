@@ -196,80 +196,34 @@ footer > p {
 
 
 
-.listing1 { 
+.listing { 
    display: flex;
    height: 300px;
    font-size: 18px;
    flex-direction: column;
    border:1px solid; 
    max-width: 400px;
+   margin-top: 10px;
 
 
  }
 
- .listing2 {
-   display: flex;
-   max-height: 300px;
-   font-size: 18px;
-   flex-direction: column;
-   justify-content: center;
-   border:1px solid; 
-    max-width: 400px;
-    
- }
+
 
  span {
   display: flex;
   justify-content: center;
   margin-top: 30px;
- }
+ }        
 
- .listing3 {
-   display: flex;
-   max-height: 300px;
-   font-size: 18px;
-   flex-direction: column;
-   align-items:  center;
-   border:1px solid;
-    max-width: 400px; 
-    
- }
 
- .listing4 {
-   display: flex;
-   flex-direction: column;
-   max-height: 300px;
-   font-size: 18px;
-   align-items: center;
-   alignment-baseline: 10px;
-   border:1px solid;
-   margin-top: 10px;
-    max-width: 400x;
+.listing img:hover {
+  transform: scale(1.6);
+  transition: all 1s;
+}
 
- }
 
- .listing5 {
-   display: flex;
-   flex-direction: column;
-   max-height: 300px;
-   font-size: 18px;
-   justify-content:  center;
-   border:1px solid;
-   margin-top: 10px;
-    max-width: 400px;
-    padding-right: 18px; 
-  
- }
 
- .listing6 {
 
-   display: flex;
-   flex-direction: column;
-   max-height: 300px;
-   font-size: 18px;
-   flex-wrap: wrap;
-   border:1px solid;
-   margin-top: 10px;
-    max-width: 400px; 
-
- }
+ 
+   
